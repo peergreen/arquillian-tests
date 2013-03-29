@@ -29,7 +29,7 @@ import org.osgi.service.log.LogService;
  */
 public class Activator implements BundleActivator {
 
-	private ServiceRegistration<LogService> serviceRegistration;
+    private ServiceRegistration<LogService> serviceRegistration;
 
     public void start(BundleContext bundleContext) {
         LogService logService = new BasicLogService();
