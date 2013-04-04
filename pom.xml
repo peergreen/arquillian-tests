@@ -27,7 +27,7 @@
     <osgi.core.version>5.0.0</osgi.core.version>
     <osgi.compendium.version>4.3.1</osgi.compendium.version>
     <junit.version>4.11</junit.version>
-    <peergreen-platform.version>1.0.0-SNAPSHOT</peergreen-platform.version>
+    <peergreen-server.version>1.0.0-M1</peergreen-server.version>
     <maven-bundle-plugin.version>2.3.7</maven-bundle-plugin.version>
   </properties>
 
@@ -68,11 +68,11 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Peergreen platform -->
+    <!-- Peergreen server -->
     <dependency>
-      <groupId>com.peergreen.platform</groupId>
-      <artifactId>platform-light</artifactId>
-      <version>${peergreen-platform.version}</version>
+      <groupId>com.peergreen.community</groupId>
+      <artifactId>peergreen-server-light</artifactId>
+      <version>${peergreen-server.version}</version>
       <scope>test</scope>
     </dependency>
 
